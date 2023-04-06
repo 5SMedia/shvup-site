@@ -25,15 +25,20 @@ main div.flex {
 }
 
 main div.flex article {
-    flex: 1;
+    flex: 1 0 41%;
     border: 1px solid #0000000c;
     background-color: #eeeeee;
     box-shadow: 0 4px 14px #8f8f8f54;
     border-radius: 10px;
-    min-width: 350px;
     height: auto;
     margin: 8px;
     padding: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    main div.flex article {
+        min-width: auto;
+    }
 }
 
 main div.flex article h2 {
