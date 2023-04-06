@@ -50,7 +50,7 @@ main div.flex article a.button {
 
 span.label {
     display: inline-block;
-    padding: 3px 6px;
+    padding: 2px 6px;
     font-size: 80%;
     font-weight: 500;
     border-radius: 6px;
@@ -58,7 +58,7 @@ span.label {
 }
 
 span.label.label-green {
-    background-color: #28dc28;
+    background-color: #3ac622;
     color: #fff;
 }
 
