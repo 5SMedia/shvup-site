@@ -35,12 +35,6 @@ main div.flex article {
     padding: 16px;
 }
 
-@media screen and (max-width: 480px) {
-    main div.flex article {
-        min-width: auto;
-    }
-}
-
 main div.flex article h2 {
     text-align: center;
     margin: 0;
